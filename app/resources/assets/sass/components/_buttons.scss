@@ -1,0 +1,77 @@
+.btn {
+  outline: none;
+  padding: 10px 86px;
+  border-radius: 50px;
+  font-size: 23px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+.btn-primary {
+  color: $comet;
+  background: $white;
+  border: 1px solid $white;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    color: $white;
+    background: $comet;
+    border: 1px solid $comet;
+  }
+
+  &:focus, &:active {
+    color: $white;
+    background: $comet;
+    border: 1px solid $comet;
+  }
+}
+
+.btn-secondary {
+  color: $white;
+  border: 1px solid $comet;
+  background: $comet;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    color: $white;
+    border: 1px solid $comet;
+    background: darken($comet, 10%);
+  }
+
+  &:focus, &:active {
+    transition: all 0.3s ease-in-out;
+    color: $white;
+    border: 1px solid $comet;
+    background: darken($comet, 10%);
+  }
+}
+
+.btn-light{
+  color: $comet;
+  border: 1px solid $oyster-pink;
+  background: $oyster-pink;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    color: $comet;
+    background: darken($oyster-pink, 10%);
+    border: 1px solid darken($oyster-pink, 10%);
+  }
+
+  &:focus, &:active {
+    transition: all 0.3s ease-in-out;
+    color: $comet;
+    background: darken($oyster-pink, 10%);
+    border: 1px solid darken($oyster-pink, 10%);
+  }
+}
+
+.btn-info {
+  
+}
